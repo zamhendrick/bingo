@@ -36,8 +36,8 @@ header {
 
     width: fit-content;
     height: 100%;
-    padding: max(1rem, 3vh);
-    border-radius: 1rem;
+    padding: clamp(1rem, 1vh, 2rem);
+    border-radius: clamp(1rem, 1vh, 2rem);
 
     background-color: #1f1f2f;
 
@@ -51,15 +51,15 @@ header {
     justify-content: center;
     align-items: center;
 
-    border-radius: 1rem;
+    border-radius: clamp(0.75rem, 1vh, 2rem);
     border: 1px solid #191929;
-    padding: 1rem;
+    padding: clamp(1rem, 1vh, 2rem);
 
     height: 100%;
 
     background-color: #f0f0f0;
 
-    font-size: max(1rem, 4vh);
+    font-size: clamp(2rem, 2.5vh, 3rem);
     font-weight: 700;
     line-height: 0.9;
     /* text-align: center; */
@@ -71,7 +71,7 @@ header {
 .grid__cell__header {
     border: none;
     background-color: unset;
-    font-size: max(1rem, 4vh);
+    font-size: clamp(3rem, 3.5vh, 4rem);
 
     color: white;
 }
