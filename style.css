@@ -36,7 +36,7 @@ header {
 
     width: fit-content;
     height: 100%;
-    padding: 2rem;
+    padding: max(1rem, 3vh);
     border-radius: 1rem;
 
     background-color: #1f1f2f;
@@ -59,7 +59,7 @@ header {
 
     background-color: #f0f0f0;
 
-    font-size: 2rem;
+    font-size: max(1rem, 4vh);
     font-weight: 700;
     line-height: 0.9;
     /* text-align: center; */
@@ -71,7 +71,7 @@ header {
 .grid__cell__header {
     border: none;
     background-color: unset;
-    font-size: 3rem;
+    font-size: max(1rem, 4vh);
 
     color: white;
 }
